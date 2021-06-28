@@ -464,7 +464,7 @@ class Huggable extends React.Component {
 - [ ] `<button onClick={this.handleClick.bind(handleClick)}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
 - [ ] `<button onClick={this.handleClick}>Click this</button>`
-- [ ] `<button onclick={this.handleClick}>Click this</button>`
+- [ ] `<button onclick={() => this.handleClick()}>Click this</button>`
 
 #### Q48. Which answer best describes a function component?
 
